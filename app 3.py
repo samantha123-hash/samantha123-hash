@@ -25,7 +25,7 @@ from langchain_community.chat_models import ChatOpenAI
 st.header("Il mio ChatBot")
 
 from PIL import Image
-logo = Image.open("robot github")
+logo = Image.open("robot github.jpg")
 st.image(logo, width=200)
 # st.image(logo, use_column_width=True)
 
